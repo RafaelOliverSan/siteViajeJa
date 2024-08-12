@@ -1,0 +1,139 @@
+@media screen and (max-width: 900px) {
+  header .menu-desktop, header .btn-contato {
+    display: none;
+  }
+
+  header .btn-menu-mob{
+    display: block;
+  }
+
+}
+
+@media screen and (max-width: 878px) {
+  /* responsivo tela 1 */
+
+  .tela-1 .txt-tela-1 h1 {
+    font-size: 2.6em;
+    line-height: 45px;
+  }
+
+  .tela-1 .txt-tela-1 p {
+    font-size: 14px;
+  }
+
+  .tela-1 .txt-tela-1 p span {
+    display: inline;
+  }
+
+  .btn-tela-1 button {
+    font-size: 18px;
+  }
+
+  /* responsivo tela 2 vantagens */
+
+  .vantagens .itens-container {
+
+    flex-direction: column;
+  }
+
+
+  .vantagens .itens-container .img-itens img {
+    width: 100%;
+  }
+
+  .vantagens .itens-container .txt-itens p {
+    margin-bottom: 20px;
+  }
+
+  .vantagens .itens-container .item-1 {
+    order: 1;
+  }
+
+  .vantagens .itens-container .item-2 {
+    order: 0;
+  }
+
+  /* responsivo dos botões de contatos */
+
+  .txt-contato, .icon-contato {
+    display: block;
+    width: 100%;
+
+  }
+
+  .contato .txt-contato h3 {
+    font-size: 2em;
+    line-height: 40px;
+  }
+
+  .icon-contato button {
+    width: 100%;
+    height: 60px;
+  }
+
+  .contato .txt-contato p {
+    margin-bottom: 20px;
+  }
+
+  /* responsivo da seção hoteis */
+
+
+  .hoteis h3 {
+    font-size: 2.3em;
+    line-height: 40px;
+  }
+
+  .hoteis p {
+    font-size: 16px;
+  }
+
+
+  /* responsivo da sessão como funciona */
+
+
+  .txt-funciona, .instrucoes {
+    display: block;
+    width: 100%;
+
+  }
+
+  .como-funciona .txt-funciona {
+    position: static;
+
+  }
+
+  .como-funciona .txt-funciona h3 {
+    font-size: 3em;
+  }
+
+  .instrucoes .instru-box {
+
+    flex-direction: column;
+    text-align: center;
+
+  }
+
+
+  /* responsivo footer(roda-pé) */
+
+
+  footer .middle-footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 15px 0;
+    display: block;
+  }
+
+  footer .bottom-footer p {
+    font-size: 14px;
+  }
+
+  /* responsivo carrosel opinião */
+
+  .depoimentos {
+    display: none;
+
+  }
+
+
+}
