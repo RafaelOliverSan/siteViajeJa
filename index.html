@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Bootstrap icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- /Bootstrap icons -->
+
+
+  <!-- Goggle Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <!-- /Goggle Fonts -->
+
+  <!-- scripts de  JavaScript -->
+  <script src="js/menu.js" defer></script>
+  <script src="js/btn-menu-mob.js" defer></script>
+
+  <!-- link script carrossel depoimentos -->
+   <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+
+      <script src="https://unpkg.com/scrollreveal"></script>
+      <script src="js/scrollreveal.js" defer></script>
+
+
+  <link rel="shortcut icon" href="./images/viagem.png" type="image/x-icon">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/responsivo.css" media="screen">
+  <title>Viaje JÁ</title>
+</head>
+
+<body>
+
+  <!-- cabeçalho -->
+  <header id="header">
+
+    <div class="interface">
+
+      <section class="logo">
+        <img class="logotipo-branca" src="./images/logotipo.png" alt="logotipo do site">
+        <img class="logotipo-preta" src="./images/logotipo_p.png" alt="logotipo do site">
+
+      </section>
+
+      <section class="menu-desktop">
+        <nav>
+          <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Destinos</a></li>
+            <li><a href="#">Hotéis</a></li>
+            <li><a href="#">Passagens</a></li>
+          </ul>
+        </nav>
+      </section>
+
+      <section class="btn-contato">
+        <a href="#contato"><button>Contato</button></a>
+
+      </section>
+
+      <div class="btn-menu-mob" id="btn-menu-mob">
+
+        <div class="line-menu-mob-1"></div>
+        <div class="line-menu-mob-2"></div>
+
+      </div>
+
+      <section class="menu-mobile" id="menu-mobile">
+        <nav>
+          <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Destinos</a></li>
+            <li><a href="#">Hotéis</a></li>
+            <li><a href="#">Passagens</a></li>
+          </ul>
+        </nav>
+      </section>
+
+    </div>
+
+  </header>
+
+  <!-- seção 1 inicial -->
+  <section class="tela-1">
+    <div class="interface">
+      <div class="txt-tela-1">
+        <h1>Decubra um <span>novo mundo.</span></h1>
+
+        <p>Encontre um destino que fará para sempre parte de sua memória <span>com um orçamento que cabe no seu
+            bolso.</span></p>
+
+        <a class="btn-tela-1" href="#"><button>Quero conhecer</button></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- seção 2 vantagens -->
+  <section class="vantagens">
+    <div class="interface">
+
+      <article class="itens-container">
+        <div class="txt-itens txt-itens-1">
+          <h3><span>Viaje </span>com<br> conforto.</h3>
+          <p>Viajar é uma das melhores formas de conhecer novos lugares, culturas e pessoas. No entanto, o conforto
+            durante a viagem pode fazer toda a diferença na experiência. Para garantir uma viagem agradável, é essencial
+            planejar cada detalhe, desde a escolha do meio de transporte até a hospedagem.</p>
+        </div>
+
+        <div class="img-itens img-itens-1">
+          <img src="./images/aviao.png" alt="imagem da asa de um avião no por do sol">
+        </div>
+      </article>
+
+      <article class="itens-container">
+
+        <div class="img-itens img-itens-2 item-1">
+          <img src="./images/carro.png" alt="imagem da asa de um avião no por do sol">
+        </div>
+
+        <div class="txt-itens txt-itens-2 item-2">
+          <h3><span>Os </span>melhores<br> destinos.</h3>
+          <p>Os melhores destinos para viajar são aqueles que oferecem experiências inesquecíveis e únicas. Cada um
+            desses lugares proporciona memórias que duram a vida toda, tornando-se os melhores destinos para qualquer
+            viajante.</p>
+        </div>
+      </article>
+
+      <article class="itens-container">
+        <div class="txt-itens txt-itens-3">
+          <h3><span>Os </span>melhores<br> hotéis.</h3>
+          <p>Os melhores hotéis do mundo se destacam por oferecerem luxo, conforto e experiências exclusivas aos seus
+            hóspedes. Esses hotéis proporcionam uma estadia inesquecível, combinando hospitalidade de alto nível com
+            cenários magníficos.</p>
+        </div>
+
+        <div class="img-itens img-itens-3">
+          <img src="./images/hoteis.png" alt="imagem da asa de um avião no por do sol">
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- seção 4 hoteis -->
+  <section class="hoteis">
+    <div class="interface">
+      <h3>Hospdagens? <span>deixa com a gente.</span></h3>
+
+      <p>Os melhores hotéis e pousadas para o maximo conforto de você e sua familia</p>
+
+      <a href="#"><button>Conheça os Hotéis</button></a>
+    </div>
+
+    <div class="overlay"></div>
+  </section>
+
+
+  <!-- seção 5 como funciona -->
+  <section class="como-funciona">
+    <div class="interface">
+      <div class="txt-funciona">
+        <h3>Como <span>funciona?</span></h3>
+      </div>
+
+      <div class="instrucoes">
+        <article class="instru-box">
+
+          <div class="img-instru-box">
+            <img src="./images/atendimento-ao-cliente.png" alt="">
+          </div>
+
+          <div class="txt-instru-box">
+            <h4>Você <span>fala com a gente.</span></h4>
+            <p>Você entra em contato com a gente fornecendo sobre o seu destino, hospedagem, orçamento e data.</p>
+          </div>
+
+        </article>
+
+        <article class="instru-box">
+
+          <div class="img-instru-box">
+            <img src="./images/planejamento.png" alt="">
+          </div>
+
+          <div class="txt-instru-box">
+            <h4>A gente <span>planeja.</span></h4>
+            <p>Com base nas suas informações, a gente planeja uma viagem que cabe no seu bolso e com melhor conforto
+              possivel.</p>
+          </div>
+
+        </article>
+
+        <article class="instru-box">
+
+          <div class="img-instru-box">
+            <img src="./images/viagem.png" alt="">
+          </div>
+
+          <div class="txt-instru-box">
+            <h4>Partiu <span>viajar.</span></h4>
+            <p>Agora é só fazer as malas e cair na estrada na data acordada. Não esqueça de tirar fotos e nos mandar
+              para eternizarmos suas memórias.</p>
+          </div>
+
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- seção 6 Contato -->
+  <section id="contato" class="contato">
+    <div class="interface">
+      <article class="txt-contato">
+        <h3>Fale agora com a <span>nossa equipe!</span></h3>
+        <p>E solicite um orçamento que cabe no seu bolso.</p>
+
+        <p></p>
+      </article>
+
+      <article class="icon-contato">
+        <a href="#">
+          <button class="btn-whatsapp"><i class="bi bi-whatsapp"></i>
+            <p>Chamar no WhatsApp</p>
+          </button>
+        </a>
+
+        <a href="#">
+          <button class="btn-email"><i class="bi bi-envelope"></i>
+            <p>Enviar Email</p>
+          </button>
+        </a>
+
+        <a href="#">
+          <button class="btn-telefone"><i class="bi bi-telephone"></i>
+            <p>Ligar</p>
+          </button>
+        </a>
+
+        <a href="#">
+          <button class="btn-formulario"><i class="bi bi-ui-checks"></i>
+            <p>Formulário</p>
+          </button>
+        </a>
+
+      </article>
+    </div>
+  </section>
+
+  <!-- seção 7 depoimentos -->
+  <section class="depoimentos  mySwiper">
+
+    <div class="container-depoimentos swiper-wrapper">
+
+      <div class="slide swiper-slide">
+        <i class="bi bi-quote"></i>
+
+        <p class="depoi-txt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit, soluta ipsam! Vel rem
+          commodi, repellat est tempora similique? Obcaecati quos quia pariatur, iure a mollitia corrupti nesciunt
+          reiciendis aspernatur placeat!</p>
+
+        <div class="personagem">
+          <img src="./images/rafael.png" alt="">
+          <div class="info-personagem">
+            <p class="nome-personagem">Rafael Oliveira</p>
+            <p class="func-personagem">Desenvolvedor Web</p>
+          </div>
+        </div>
+
+
+      </div>
+
+      <div class="slide swiper-slide">
+        <i class="bi bi-quote"></i>
+
+        <p class="depoi-txt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit, soluta ipsam! Vel rem
+          commodi, repellat est tempora similique? Obcaecati quos quia pariatur, iure a mollitia corrupti nesciunt
+          reiciendis aspernatur placeat!</p>
+
+        <div class="personagem">
+          <img src="./images/h.png" alt="">
+          <div class="info-personagem">
+            <p class="nome-personagem">Gustavo Sans</p>
+            <p class="func-personagem">Disaigner</p>
+          </div>
+        </div>
+
+
+      </div>
+
+      <div class="slide swiper-slide">
+        <i class="bi bi-quote"></i>
+
+        <p class="depoi-txt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit, soluta ipsam! Vel rem
+          commodi, repellat est tempora similique? Obcaecati quos quia pariatur, iure a mollitia corrupti nesciunt
+          reiciendis aspernatur placeat!</p>
+
+        <div class="personagem">
+          <img src="./images/m3.jpg" alt="">
+          <div class="info-personagem">
+            <p class="nome-personagem">Aline Fernandes</p>
+            <p class="func-personagem">Modelo</p>
+          </div>
+        </div>
+
+
+      </div>
+
+      <div class="slide swiper-slide">
+        <i class="bi bi-quote"></i>
+
+        <p class="depoi-txt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit, soluta ipsam! Vel rem
+          commodi, repellat est tempora similique? Obcaecati quos quia pariatur, iure a mollitia corrupti nesciunt
+          reiciendis aspernatur placeat!</p>
+
+        <div class="personagem">
+          <img src="./images/m.jpg" alt="">
+          <div class="info-personagem">
+            <p class="nome-personagem">Victória Lins</p>
+            <p class="func-personagem">Engenheira</p>
+          </div>
+        </div>
+
+
+      </div>
+
+      <div class="slide swiper-slide">
+        <i class="bi bi-quote"></i>
+
+        <p class="depoi-txt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit, soluta ipsam! Vel rem
+          commodi, repellat est tempora similique? Obcaecati quos quia pariatur, iure a mollitia corrupti nesciunt
+          reiciendis aspernatur placeat!</p>
+
+        <div class="personagem">
+          <img src="./images/h2.png" alt="">
+          <div class="info-personagem">
+            <p class="nome-personagem">Victor Bonfim</p>
+            <p class="func-personagem">Ator</p>
+          </div>
+        </div>
+
+
+      </div>
+
+      <div class="slide swiper-slide">
+        <i class="bi bi-quote"></i>
+
+        <p class="depoi-txt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit, soluta ipsam! Vel rem
+          commodi, repellat est tempora similique? Obcaecati quos quia pariatur, iure a mollitia corrupti nesciunt
+          reiciendis aspernatur placeat!</p>
+
+        <div class="personagem">
+          <img src="./images/m2.jpg" alt="">
+          <div class="info-personagem">
+            <p class="nome-personagem">Leticia Lemos</p>
+            <p class="func-personagem">Advogada</p>
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+
+    </div>
+
+    <div class="swiper-button-next nav-btn"></div>
+    <div class="swiper-button-prev nav-btn"></div>
+    <div class="swiper-pagination nav-radio"></div>
+
+  </section>
+
+  <script src="./js/swiper-bundle.min.js"></script>
+  <script src="./js/carrossel.js"></script>
+
+
+
+  <!-- roda-pé -->
+  <footer>
+    <div class="interface">
+
+      <section class="top-footer">
+        <a href="#"><button><i class="bi bi-twitter-x"></i></button></a>
+        <a href="#"><button><i class="bi bi-facebook"></i></button></a>
+        <a href="#"><button><i class="bi bi-instagram"></i></button></a>
+        <a href="#"><button><i class="bi bi-tiktok"></i></button></a>
+      </section>
+
+      <section class="middle-footer">
+        <a href="#">Suporte</a>
+        <a href="#">Informações</a>
+        <a href="#">Marketing</a>
+      </section>
+
+      <section class="bottom-footer">
+        <p>RafaOliver 2024 &copy; Todos os direitos reservados</p>
+      </section>
+
+    </div>
+  </footer>
+
+</body>
+
+</html>
